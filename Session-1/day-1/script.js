@@ -17,3 +17,5 @@ const createFile = (name, content) => {
 const args = process.argv;
 
 createFile(args[2], args[3]);
+
+
