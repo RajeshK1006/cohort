@@ -15,3 +15,9 @@ app.listen(3000, ()=>{
 // When you open the browser and navigate to http://localhost:3000/, a GET request is sent to the server for the / route.
 // The middleware console.log("This is the first middleware") is executed.
 // Then, next() is called, passing control to the second handler (req, res) where res.send("Hello middlewares") sends the response to the browser.
+
+// query parameters like req.parameters
+
+// things realted t file rendering, routes, post, get, put, delete , callbacks 
+
+//  error handling is also involved in teh express to check with the status code and req type for(security)

@@ -1,4 +1,7 @@
 const express = require("express");
+
+// setting up basic express app and mkaing different routes
+
 const app = express();
 
 app.get("/",(req,res)=> {
